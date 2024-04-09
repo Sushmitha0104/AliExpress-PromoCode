@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap') */
+
+* {
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+header {
+    background-color:#064983;
+    color: #bbdfff;
+    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0 10px 0 250px;
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  header nav img{
+    /* margin: 0 0 0 750px ; */
+    float: right;
+    width: 250px ;
+    height: 150px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #064983;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 600px;
+    padding: 0 10px 0 336px;
+    font-size: 30px;
+  }
+  
+  p {
+    text-align: justify; /* Align text in the middle */
+    margin: 0 auto; /* Center text horizontally */
+    max-width: 800px; /* Limit width for better readability */
+    padding: 0 20px; /* Add padding to the left and right edges */
+    font-size: 20px;
+    /* font-family: "Nanum Myeongjo", serif; */
+    line-height: 1.5;
+  }
+  .highlight{
+    color: #2b9af4;
+    font-weight: 300;
+  }
+
+  main section p a{
+    color: #2b9af4; 
+  }
+
+  main section p a:hover{
+    color: #105288;
+  }
+  
+  main section img {
+    /* width: 400px;
+    height: 350px; */
+    /* display: block; */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* align-items: center; */
+  }
+  
+  #img2{
+    display: block;
+    margin: auto;
+  }
+
+  
+
+  .container {
+    display: flex;
+  }
+  
+  .container img {
+    margin-right: 20px; /* Add space between images */
+    width: 400px;
+  }
+
+  .img5{
+    margin-left: 330px;
+  }
+
+  /* .img4{
+    width: 200px;
+    height: 150px;
+  } */
+
+  .social-icons {
+    display: flex;
+    margin-top: auto;   
+}
+  
+.social-icons span {
+    margin-right: 50px;
+    align-items: center;
+}
+
+  footer {
+    background-color:#064983;
+    color: #bbdfff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer p{
+    text-align: center;
+  }
+  
